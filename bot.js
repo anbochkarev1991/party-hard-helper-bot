@@ -4,6 +4,12 @@ import showCocktail from './helpers/show.js';
 import vodkaCocktails from './info/vodka.js';
 import whiskeyCocktails from './info/whiskey.js'
 
+import serverFix from 'http';
+
+serverFix.createServer().listen(process.env.PORT || 8443).on('request', function(req, res){
+  res.end('')
+});
+
 dotenv.config();
 const collections = [vodkaCocktails, whiskeyCocktails];
 // menu - переменная для отсечения всех кнопок, не содержащих название коктейля
