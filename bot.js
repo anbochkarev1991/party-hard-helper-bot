@@ -17,6 +17,9 @@ const bot = new TelegramBot(process.env.TOKEN, {
     params: {
       timeout: 10,
     }
+  },
+  webHook: {
+    port: 8443,
   }
 });
 
