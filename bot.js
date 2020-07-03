@@ -19,7 +19,7 @@ const bot = new TelegramBot(process.env.TOKEN, {
     }
   },
   webHook: {
-    port: process.env.PORT,
+    port: process.env.PORT || 8443,
   }
 });
 
