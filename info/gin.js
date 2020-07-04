@@ -66,6 +66,16 @@ const chertanovskyZakat = new Cocktail(
   'https://winestyle.ru/images_raw/pages/rose11553196611.jpg'
 );
 
+const negroni = new Cocktail(
+  'Негрони',
+  'Умеренно крепко',
+  'Джин',
+  '?!30 мл джин;!30 мл кампари;!красный вермут 30 мл',
+  'Рокс или олд фэшнд',
+  'Налейте все ингредиенты непосредственно в олд фешнд с кубиками льда. Осторожно перемешайте коктейль барной ложкой. Классическим украшением считается долька апельсина или вишенка.',
+  'https://vzboltay.com/drink/38-kokteyl-negroni.html',
+  'https://vzboltay.com/uploads/posts/2015-03/1427219452_negroni.jpg'
+);
 
 const ginCocktails = [
   gimlet,
@@ -73,7 +83,8 @@ const ginCocktails = [
   alexander,
   bronx,
   ladyChatterley,
-  chertanovskyZakat
+  chertanovskyZakat,
+  negroni,
 ]
 
 export default ginCocktails;

@@ -29,7 +29,10 @@ const bot = new TelegramBot(process.env.TOKEN, {
     }
   },
   // webHook: {
-  //   port: process.env.PORT,
+  //   port: 8443,
+  //   host: ,
+  //   ssl_cert: ,
+  //   ssl_priv: ,
   // }
 });
 

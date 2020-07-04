@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "dotenv": "^8.2.0",
+    "heroku-command": "0.0.0",
     "http": "0.0.1-security",
     "node-telegram-bot-api": "^0.50.0",
     "unirest": "^0.6.0"
