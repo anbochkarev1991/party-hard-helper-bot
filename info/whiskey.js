@@ -88,6 +88,17 @@ const wildWest = new Cocktail(
   'https://vzboltay.com/uploads/posts/2018-01/1515500390_dikij-dikij-zapad_1.jpg'
 );
 
+const zigZag = new Cocktail(
+  'Зиг Заг',
+  'Вкусно и крепко',
+  'Виски',
+  '?!45 мл бехеровки;!20 мл виски;!15 мл ванильного ликера;!15 мл меда;!20 мл лимонного сока',
+  'Шале',
+  'В шейкер со льдом налейте все ингредиенты. Хорошенько взболтайте. Перелейте через стрейнер в бокал.',
+  'https://vzboltay.com/drink/331-kokteyl-zig-zag.html',
+  'https://vzboltay.com/uploads/posts/2019-05/1558290117_zig-zag.jpg'
+);
+
 const whiskeyCocktails = [
   whiskeySour,
   penicillin,
@@ -96,7 +107,8 @@ const whiskeyCocktails = [
   oldFashioned,
   irishCoffee,
   mintJulep,
-  wildWest
+  wildWest,
+  zigZag
 ]
 
 export default whiskeyCocktails;
