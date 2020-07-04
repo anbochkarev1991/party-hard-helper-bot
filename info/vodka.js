@@ -64,6 +64,17 @@ const auroraBorealis = new Cocktail(
   'Охладите бокал в течение 3 минут льдом. Выкиньте лед, налейте водку, затем сироп, затем шампанское. Аккуратно перемешайте и отдайте кому-нибудь другому.',
   '',
   'https://www.gastronom.ru/binfiles/images/20151216/bc1511ce.jpg'
+);
+
+const bumbox = new Cocktail(
+  'Бумбокс',
+  'Вкусно и не крепко',
+  'Водка',
+  '?!20 мл водки;!20 мл слвового вина;!20 мл американо',
+  'Стопка',
+  'В небольшую стопку налить сливовое вино. Затем, используя коктейльную ложку, аккуратно слоями уложить горячий американо и водку.',
+  'http://www.alcorecept.ru/koktejli/alkogolnye-koktejli-s-vodkoj.html',
+  'http://www.alcorecept.ru/wp-content/uploads/2016/11/1711-11.jpg'
 )
 
 const vodkaCocktails = [
@@ -72,7 +83,8 @@ const vodkaCocktails = [
   screwdriver,
   moscowMul,
   whiteRussian,
-  auroraBorealis
+  auroraBorealis,
+  bumbox
 ]
 
 
