@@ -75,7 +75,18 @@ const mintJulep = new Cocktail(
   'В стакан выложите 4 веточки мяты. Добавьте сахарную пудру и воду и подавите мадлером. Заполните стакан льдом и влейте бурбон. Украсьте коктейль веточкой мяты.',
   'https://lifehacker.ru/koktejli-s-viski/',
   'https://cdn.lifehacker.ru/wp-content/uploads/2018/10/mint-julep_1540468978-e1540469008838-630x315.jpg'
-)
+);
+
+const wildWest = new Cocktail(
+  'Дикий-дикий запад',
+  'Вкусно и крепко',
+  'Виски',
+  '?!15 мл виски;!30 мл персикового шнапса;!60 мл клюквенного сока',
+  'Рокс',
+  'В шейкере со льдом взболтайте все ингредиенты.Перелейте через стрейнер содержимое шейкера в кстаромодный бокал со льдом.',
+  'https://vzboltay.com/drink/722-dikiy-dikiy-zapad.html',
+  'https://vzboltay.com/uploads/posts/2018-01/1515500390_dikij-dikij-zapad_1.jpg'
+);
 
 const whiskeyCocktails = [
   whiskeySour,
@@ -84,7 +95,8 @@ const whiskeyCocktails = [
   bulvardie,
   oldFashioned,
   irishCoffee,
-  mintJulep
+  mintJulep,
+  wildWest
 ]
 
 export default whiskeyCocktails;
